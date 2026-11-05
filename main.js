@@ -1,10 +1,5 @@
 let records = JSON.parse(localStorage.getItem("records")) || [
-    {
-        firstName: "Juan",
-        middleName: "Roxas",
-        lastName: "Dela Cruz",
-        age: 57
-    }
+    
 ];
 
 let editIndex = -1;
